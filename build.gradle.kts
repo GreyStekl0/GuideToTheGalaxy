@@ -11,7 +11,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    implementation("org.jsoup:jsoup:1.18.3")
+    implementation("com.fleeksoft.ksoup:ksoup:0.2.2")
+    implementation("com.fleeksoft.ksoup:ksoup-network:0.2.2")
+    implementation("org.slf4j:slf4j-simple:2.0.16")
 }
 
 tasks.test {
